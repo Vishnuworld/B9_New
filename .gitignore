@@ -1,3 +1,4 @@
 *.txt
 # app/*
 # B9_Library/__pycache__/*
+!requirements.txt
