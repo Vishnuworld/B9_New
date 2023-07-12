@@ -1,0 +1,19 @@
+<html>
+
+<body>
+    <ul>
+        {% for object in all_employees %}
+        <li>{{ object.first_name }}</li>
+        <li>{{ object.last_name }}</li>
+        <li>{{ object.mobile }}</li>
+        <li>{{ object.email }}</li>
+        <hr/>
+        <!-- If all_employees is empty  -->
+        {% empty %}
+        <li>No objects yet.</li>
+        {% endfor %}
+    </ul>
+
+</body>
+
+</html>

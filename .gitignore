@@ -1,0 +1,3 @@
+*.txt
+# app/*
+# B9_Library/__pycache__/*
